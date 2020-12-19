@@ -1,6 +1,7 @@
 #!/usr/bin/env python
+from typing import Dict, List
 
-def check_match(message, rule0):
+def check_match(message: str, rule0: List[int or str]) -> bool:
     matched = True
     if len(rule0) == 0 or len(message) == 0:
         return len(rule0) == 0 and len(message) == 0
@@ -18,7 +19,7 @@ def check_match(message, rule0):
     return not matched
 
 
-def customise_rules(rules):
+def customise_rules(rules: Dict[str, str]) -> Dict[int, List[List[int] or str]]:
     buffer_dict = dict()
     for rule in rules:
         key, values = rule.split(": ")
