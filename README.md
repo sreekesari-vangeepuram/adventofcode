@@ -3,7 +3,7 @@ Advent of Code 2020
 https://adventofcode.com
 
 Solved on:  
-### Host-machine details:
+### Host-machine details
 ```
 
           /:-------------:\          eementu@fedora 
