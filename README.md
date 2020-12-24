@@ -4,7 +4,7 @@ https://adventofcode.com
 
 # Environment  
 
-### Host-machine details
+### Machine details
 ```
 
           /:-------------:\          eementu@fedora 
