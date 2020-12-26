@@ -1,7 +1,7 @@
 # Advent of Code  
 https://adventofcode.com
 
-Author for write-ups: [sreekesari](https://twitter.com/sreekesari)
+Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
 
 # Environment  
 
