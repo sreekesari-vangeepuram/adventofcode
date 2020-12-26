@@ -41,7 +41,7 @@ for ins in ins_list:
     tiles[x, y, z] ^= 1
 
 DAYS = 100
-for DAY in range(DAYS):
+for _ in range(DAYS):
     neighbours = defaultdict(int) # buffer dictionary
     for x, y, z in tiles.keys():
         if tiles[x, y, z]: # (cell) is alive, then
