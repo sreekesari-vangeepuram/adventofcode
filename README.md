@@ -35,3 +35,9 @@ Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
 Python 3.9.0 (default, Oct  6 2020, 00:00:00) 
 [GCC 10.2.1 20200826 (Red Hat 10.2.1-3)] on linux
 ```
+
+### Golang details
+```
+go version go1.15.5 linux/amd64
+```
+
