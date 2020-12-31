@@ -28,7 +28,7 @@ Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
 ```
 
 # License
-Release under [MIT license](https://github.com/sreekesari-vangeepuram/adventofcode/blob/main/LICENSE)
+Release Under [MIT license](https://github.com/sreekesari-vangeepuram/adventofcode/blob/main/LICENSE)
 
 # Author
 [@sreekesari](https://twitter.com/sreekesari)
