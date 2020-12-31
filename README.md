@@ -4,8 +4,6 @@ https://adventofcode.com
 Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
 
 # Environment  
-
-### Machine details
 ```
 
           /:-------------:\          eementu@fedora 
@@ -28,4 +26,10 @@ Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
                                      Memory: 3293MiB / 7871MiB 
 
 ```
+
+# License
+Release under [MIT license](https://github.com/sreekesari-vangeepuram/adventofcode/blob/main/LICENSE)
+
+# Author
+[@sreekesari](https://twitter.com/sreekesari)
 
