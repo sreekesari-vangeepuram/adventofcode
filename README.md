@@ -1,7 +1,8 @@
 # Advent of Code  
 https://adventofcode.com
 
-Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
+# Author
+[@sreekesari](https://twitter.com/sreekesari)
 
 # Environment  
 ```
@@ -29,7 +30,3 @@ Author of these write-ups: [@sreekesari](https://twitter.com/sreekesari)
 
 # License
 Release Under [MIT license](https://github.com/sreekesari-vangeepuram/adventofcode/blob/main/LICENSE)
-
-# Author
-[@sreekesari](https://twitter.com/sreekesari)
-
