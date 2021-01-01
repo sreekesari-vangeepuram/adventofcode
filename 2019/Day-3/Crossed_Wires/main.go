@@ -7,7 +7,6 @@ import (
     "log"
     "strings"
     "strconv"
-    "sort"
 )
 
 var direction map[string]Point
@@ -124,16 +123,16 @@ func solve(wires [][]Instruction) (int, int) {
     }
 
 
-        var manhattanDistance, min int
+        var manhattanDistance, min1 int
         intersectionPoints := intersectionsIn(&locus)
         for index, point := range intersectionPoints {
             manhattanDistance = Abs(point.x) + Abs(point.y)
             if index == 0 {
-                min = manhattanDistance
+                min1 = manhattanDistance
             }
 
-            if manhattanDistance < min {
-                min = manhattanDistance
+            if manhattanDistance < min1 {
+                min1 = manhattanDistance
             }
         }
 
@@ -155,8 +154,14 @@ func solve(wires [][]Instruction) (int, int) {
 
             countOfSteps = append(countOfSteps, bfn1 + bfn2)
         }
-        sort.Ints(countOfSteps)
 
-    return min, countOfSteps[0]
+        var min2 int = countOfSteps[0]
+        for _, stepCount := range countOfSteps {
+            if stepCount < min2 {
+                min2 = stepCount
+            }
+        }
+
+    return min1, min2
 
 }
