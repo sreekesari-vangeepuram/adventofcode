@@ -97,17 +97,14 @@ func main() {
 
     // PART - 1
     part1 := int(^uint(0) >> 1)
-    for index, point := range intersectionPoints {
+    for _, point := range intersectionPoints {
         manhattanDistance = Abs(point.x) + Abs(point.y)
-        if index == 0 {
-            part1 = manhattanDistance
-        }
-
         if manhattanDistance < part1 {
             part1 = manhattanDistance
         }
     }
 
+    // PART - 2
     for _, point := range intersectionPoints {
         bfn1, bfn2 = 0, 0
         for i1, p1 := range wire1Track {
@@ -125,7 +122,6 @@ func main() {
         countOfSteps = append(countOfSteps, bfn1 + bfn2)
     }
 
-    // PART - 2
     part2 := countOfSteps[0]
     for _, stepCount := range countOfSteps {
         if stepCount < part2 {
