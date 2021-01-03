@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// Password range -> [ 183564 ... 657474 ]
@@ -15,9 +13,9 @@ func main() {
 	 *     increase or stay the same (like `111123` or `135679`).   [Another rule R2]
 	 */
 
-	var groupSize, previousDigit, bufferNum, acc1, acc2 int // max size of counter in the given range is `473910`
+	var groupSize, previousDigit, bufferNum, acc1, acc2 int // max size of both accumulators in the given range is `473910`
 	var inIncreasingOrder, hasSimilarDigit, validGroup bool
-	for number := 183564 + 1; number < /*183571*/ 657474; number++ {
+	for number := 183564 + 1; number < 657474; number++ {
 		bufferNum, previousDigit, groupSize = number, -1, 0
 		inIncreasingOrder, hasSimilarDigit, validGroup = true, false, false
 		for i := 5; i >= 0; i-- {
