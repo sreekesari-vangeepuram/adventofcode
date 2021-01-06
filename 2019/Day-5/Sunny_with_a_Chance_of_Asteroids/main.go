@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+
 	if len(os.Args) < 2 {
 		log.Fatal("** Usage: ./main <filename>")
 	}
@@ -146,6 +147,5 @@ func numberInSlice(slice []int, number int) bool {
 			return true
 		}
 	}
-
 	return false
 }
