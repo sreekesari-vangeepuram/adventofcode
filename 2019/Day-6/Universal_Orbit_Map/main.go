@@ -56,13 +56,13 @@ func part1(orbits map[string]string) (orbitsCount int) {
 }
 
 func part2(orbits map[string]string) (orbitalTransferCount int) {
-	lengthOf := make(map[string]int)
+	distanceFrom := make(map[string]int)
 	var parent string
 	var ok bool
 
 	object, youDistance := orbits["YOU"], 0
 	for {
-		lengthOf[object] = youDistance
+		distanceFrom[object] = youDistance
 		parent, ok = orbits[object]
 
 		if !ok {
@@ -75,7 +75,7 @@ func part2(orbits map[string]string) (orbitalTransferCount int) {
 
 	object = orbits["SAN"]
 	for {
-		youDistance, ok = lengthOf[object]
+		youDistance, ok = distanceFrom[object]
 		parent = orbits[object]
 
 		if ok {
