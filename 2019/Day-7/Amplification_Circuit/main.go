@@ -15,7 +15,7 @@ var Program []int
 func main() {
 
 	if len(os.Args) < 2 {
-        log.Fatal(`
+		log.Fatal(`
 
 [ERROR]: Dataset not supplied!
 ** Usage: ./main /path/to/file
@@ -40,67 +40,69 @@ func main() {
 		Program = append(Program, str2int(element))
 	}
 
-    part1 := make(chan int)
-    part2 := make(chan int)
+	part1 := make(chan int)
+	part2 := make(chan int)
 
-    go getHighestSignal([]int{3, 1, 2, 4, 0}, part1)
-    go getHighestSignal([]int{9, 7, 8, 5, 6}, part2)
+	go getHighestSignal([]int{3, 1, 2, 4, 0}, part1)
+	go getHighestSignal([]int{9, 7, 8, 5, 6}, part2)
 
-    fmt.Println("Highest Signal [ Phase - I ] :", <-part1)
+	fmt.Println("Highest Signal [ Phase - I ] :", <-part1)
 	fmt.Println("Highest Signal [ Phase - II] :", <-part2)
 }
 
 func getHighestSignal(phaseSignalElements []int, result chan<- int) {
 
-    permutation := make(chan []int)
-    go permutations(phaseSignalElements, permutation)
+	permutation := make(chan []int)
+	go permutations(phaseSignalElements, permutation)
 
-    bestSignal := 0
-    for phaseSettings := range permutation {
-        presentSignal := flowAtoE(phaseSettings)
-        if presentSignal > bestSignal {
-            bestSignal = presentSignal
-        }
-    }
+	bestSignal := 0
+	for phaseSettings := range permutation {
+		presentSignal := flowAtoE(phaseSettings)
+		if presentSignal > bestSignal {
+			bestSignal = presentSignal
+		}
+	}
 
-    result <- bestSignal
+	result <- bestSignal
 }
 
 func flowAtoE(phaseSettings []int) int {
-    A := make(chan int, 1)
-    B := make(chan int)
-    C := make(chan int)
-    D := make(chan int)
-    E := make(chan int)
 
-    SIGINT := make(chan bool)
+	// Defining amplifier
+	// signal channels
+	A := make(chan int, 1)
+	B := make(chan int)
+	C := make(chan int)
+	D := make(chan int)
+	E := make(chan int)
 
+	SIGINT := make(chan bool)
 
-    // Concurrently flow the signal through
-    // all the amplifiers
-    go flowSignal(A, B, SIGINT)
-    go flowSignal(B, C, SIGINT)
-    go flowSignal(C, D, SIGINT)
-    go flowSignal(D, E, SIGINT)
-    go flowSignal(E, A, SIGINT)
+	// Concurrently flow the signal through
+	// all the amplifiers
+	go flowSignal(A, B, SIGINT)
+	go flowSignal(B, C, SIGINT)
+	go flowSignal(C, D, SIGINT)
+	go flowSignal(D, E, SIGINT)
+	go flowSignal(E, A, SIGINT)
 
-    // Concurrently send phaseSetting
-    // to all the amplifiers
-    A <- phaseSettings[0]
-    B <- phaseSettings[1]
-    C <- phaseSettings[2]
-    D <- phaseSettings[3]
-    E <- phaseSettings[4]
+	// Concurrently send phaseSetting
+	// to all the amplifiers
+	A <- phaseSettings[0]
+	B <- phaseSettings[1]
+	C <- phaseSettings[2]
+	D <- phaseSettings[3]
+	E <- phaseSettings[4]
 
-    // Initializing sequence...
-    A <- 0
+	// Initializing sequence...
+	A <- 0
 
-    // Listening to signal interruption [SIGINT]
-    for i := 0; i < 5; i++ {
-        <-SIGINT
-    }
+	// Listening to signal interruption [SIGINT]
+	for i := 0; i < 5; i++ {
+		<-SIGINT
+	}
 
-    return <-A
+	return <-A
 }
 
 func flowSignal(inputPhaseSignal <-chan int, outputPhaseSignal chan<- int, SIGINT chan<- bool) {
@@ -127,7 +129,7 @@ func flowSignal(inputPhaseSignal <-chan int, outputPhaseSignal chan<- int, SIGIN
 			ip += 2
 
 		case 4:
-			outputPhaseSignal<- Intcode[Intcode[ip+1]]
+			outputPhaseSignal <- Intcode[Intcode[ip+1]]
 			ip += 2
 
 		case 5:
@@ -161,7 +163,7 @@ func flowSignal(inputPhaseSignal <-chan int, outputPhaseSignal chan<- int, SIGIN
 			ip += 4
 
 		case 99:
-            SIGINT <- true
+			SIGINT <- true
 			break
 
 		}
@@ -214,39 +216,38 @@ func numberInSlice(slice []int, number int) bool {
 }
 
 func permutations(arr []int, permChan chan []int) {
-    var helper func([]int, int)
+	var helper func([]int, int)
 
-    helper = func(arr []int, n int) {
+	helper = func(arr []int, n int) {
 
-        if n == 1 {
+		if n == 1 {
 
-            tmp := make([]int, len(arr))
-            copy(tmp, arr)
+			tmp := make([]int, len(arr))
+			copy(tmp, arr)
 
-            permChan <- tmp
+			permChan <- tmp
 
-        } else {
+		} else {
 
-            for i := 0; i < n; i++{
-                helper(arr, n - 1)
-                if n % 2 == 1{
+			for i := 0; i < n; i++ {
+				helper(arr, n-1)
+				if n%2 == 1 {
 
-                    tmp := arr[i]
-                    arr[i] = arr[n - 1]
-                    arr[n - 1] = tmp
+					tmp := arr[i]
+					arr[i] = arr[n-1]
+					arr[n-1] = tmp
 
-                } else {
+				} else {
 
-                    tmp := arr[0]
-                    arr[0] = arr[n - 1]
-                    arr[n - 1] = tmp
+					tmp := arr[0]
+					arr[0] = arr[n-1]
+					arr[n-1] = tmp
 
-                }
-            }
-        }
-    }
+				}
+			}
+		}
+	}
 
-    helper(arr, len(arr))
-    close(permChan)
+	helper(arr, len(arr))
+	close(permChan)
 }
-
