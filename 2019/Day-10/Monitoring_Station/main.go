@@ -143,7 +143,6 @@ func vaporize(station Point, asteroids [][]int, targetAsteroidNumber int) Point 
             }
         }
     }
-    fmt.Println(asteroidAtAngle)
 
     return Point{x: -1, y: -1} // Indicating asteroid not found!
 }
