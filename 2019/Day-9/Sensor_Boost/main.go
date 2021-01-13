@@ -37,7 +37,7 @@ func runBOOST(Program []int, input int) (keycode int) {
 	mem := make([]int, 21200) // 21200 is determined after multiple test-cases
 	copy(mem, Program)
 
-	ip, rip := 0, 0         // result [keycode], instruction pointer [ip] and relative pointer [rip]
+	ip, rip := 0, 0         // instruction pointer [ip] and relative pointer [rip]
 	var opCodeObject [5]int // array to split ABCDE
 	var A, B, C, DE int     // digits: A, B, C in `ABCDE`
 	var buffNum, p1, p2 int // buffer integer variables
