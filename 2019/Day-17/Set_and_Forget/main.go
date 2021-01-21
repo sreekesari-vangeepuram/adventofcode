@@ -91,7 +91,7 @@ var (
 	RIGHT = Point{1, 0}
 
 	TL  = map[Point]Point{UP: LEFT, LEFT: DOWN, DOWN: RIGHT, RIGHT: UP}
-	TR = map[Point]Point{UP: RIGHT, RIGHT: DOWN, DOWN: LEFT, LEFT: UP}
+	TR	= map[Point]Point{UP: RIGHT, RIGHT: DOWN, DOWN: LEFT, LEFT: UP}
 )
 
 func shortenedRoute(track []string, fns [][]string, frags [][]string) (result [][4][]string) {
