@@ -136,7 +136,7 @@ func navigateVault(vault [][]byte) int {
 
 	type Item struct {
 		location Vec2d
-		l2c      uint32 // length top connect
+		l2c      uint32 // Length to connect
 		distance int
 	}
 
