@@ -35,7 +35,7 @@ type Link struct {
 }
 
 type Label struct {
-	id			string
+	id		string
 	nodes		[]*Node
 }
 
