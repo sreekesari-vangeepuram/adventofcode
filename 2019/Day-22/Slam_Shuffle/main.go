@@ -72,10 +72,6 @@ func SUM(n1, n2, n3, n4 *big.Int) {
 	n1.Mod(n1, n4)
 }
 
-type Instructor interface {
-	instruct(n1, n2 *big.Int)	// function signature
-}
-
 func main() {
 
 	if len(os.Args) < 2 {
@@ -93,28 +89,25 @@ log.Fatal(`
 		n  int   = 1
 	)
 
-	fmt.Printf("Card number at %d: %d\n", n1, Solve_1(n1, n2, instruction, n))
+	fmt.Printf("Card number at %d: %d\n", n1, solve(n1, n2, instruction, n, false))
 
 
 		n1 = 2020
 		n2 = 119315717514047
 		n  = 101741582076661
 
-	fmt.Printf("Card number at %d: %v\n", n1, Solve_2(n1, n2, instruction, n))
+	fmt.Printf("Card number at %d: %v\n", n1, solve(n1, n2, instruction, n, true))
 }
 
-func Solve_1(n1, n2 int64, intr Instructor, n int) int64 {
+func solve(n1, n2 int64, ins Instruction, n int, part bool) int64 {
 
-	i1, i2 := big.NewInt(n1), big.NewInt(n2)
-	for ; n > 0; n-- {
-		intr.instruct(i1, i2)
-		i1.Mod(i1, i2)
+	if !part {
+		i1, i2 := big.NewInt(n1), big.NewInt(n2)
+		for ; n > 0; n-- {
+			ins.instruct(i1, i2)
+			i1.Mod(i1, i2)
+		}; return i1.Int64()
 	}
-
-	return i1.Int64()
-}
-
-func Solve_2(n1, n2 int64, ins Instruction, n int) int64 {
 
 	i1  := ins.invert(n2)
 	i2  := big.NewInt(n2)
@@ -125,6 +118,7 @@ func Solve_2(n1, n2 int64, ins Instruction, n int) int64 {
 
 	neg.Mod(neg, i2)
 	return neg.Int64()
+
 }
 
 func ReadAndParseFile(fileName string) Instruction {
