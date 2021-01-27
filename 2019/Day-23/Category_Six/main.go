@@ -35,9 +35,9 @@ func main() {
 
 func monitorTraffic(Program []int, MachineAddress, fleetSize int) {
 
-	InboundStream  := make([]chan int, fleetSize)
+	InboundStream := make([]chan int, fleetSize)
 	OutboundStream := make([]chan int, fleetSize)
-	SIGTERM      := make(chan bool)
+	SIGTERM := make(chan bool)
 
 	// Inbound Packet Traffic
 	for i := 0; i < fleetSize; i++ {
@@ -45,24 +45,27 @@ func monitorTraffic(Program []int, MachineAddress, fleetSize int) {
 		InboundStream[i], OutboundStream[i] = make(chan int), make(chan int)
 		go runProgram(Program, InboundStream[i], OutboundStream[i], SIGTERM)
 
-		InboundStream[i] <- i; InboundStream[i] <- -1
+		InboundStream[i] <- i
+		InboundStream[i] <- -1
 	}
 
 	var NAT, oldAddress, newAddress [2]int /* Size = 2 for X & Y */
 	var idle int = 0
 
-	for i := 0; /* until receiving SIGTERM */; i = (i + 1) % fleetSize {
+	for i := 0; ; /* until receiving SIGTERM */ i = (i + 1) % fleetSize {
 		select {
 		case Address := <-OutboundStream[i]:
-		    if Address == MachineAddress {
-			newAddress = [2]int{<-OutboundStream[i], <-OutboundStream[i]}
-			if NAT == [2]int{} {
-				fmt.Println("Y value of the first packet sent to address 255 :", newAddress[1])
-			};  NAT = newAddress
-		    } else {
+			if Address == MachineAddress {
+				newAddress = [2]int{<-OutboundStream[i], <-OutboundStream[i]}
+				if NAT == [2]int{} {
+					fmt.Println("Y value of the first packet sent to address 255 :", newAddress[1])
+				}
+				NAT = newAddress
+			} else {
 				InboundStream[Address] <- int(<-OutboundStream[i])
 				InboundStream[Address] <- int(<-OutboundStream[i])
-		    }; idle = 0
+			}
+			idle = 0
 
 		case InboundStream[i] <- -1:
 			idle++
@@ -72,19 +75,20 @@ func monitorTraffic(Program []int, MachineAddress, fleetSize int) {
 		}
 
 		if idle >= fleetSize {
-		   if oldAddress[1] == NAT[1] {
-		      fmt.Println("The first Y value delivered by the NAT to the computer at address 0 twice in a row :", NAT[1])
-		      return // DONE!
-		   }
+			if oldAddress[1] == NAT[1] {
+				fmt.Println("The first Y value delivered by the NAT to the computer at address 0 twice in a row :", NAT[1])
+				return // DONE!
+			}
 
-		   InboundStream[0] <- NAT[0]; InboundStream[0] <- NAT[1]
-		   oldAddress = NAT; idle = 0
+			InboundStream[0] <- NAT[0]
+			InboundStream[0] <- NAT[1]
+			oldAddress = NAT
+			idle = 0
 		}
 	}
 
 	log.Fatal("[ERROR]: Unable to monitor traffic!")
 }
-
 
 func runProgram(Program []int, InputPacket <-chan int, OutputPacket chan<- int, SIGTERM chan<- bool) {
 	mem := make([]int, len(Program)) // Expandable in `addr` func, on need only!
@@ -160,7 +164,8 @@ func runProgram(Program []int, InputPacket <-chan int, OutputPacket chan<- int, 
 			ip += 2
 
 		case 99:
-			SIGTERM <- true; return
+			SIGTERM <- true
+			return
 
 		default:
 			log.Fatal("[ERROR]: Unknown opCode encountered!")
@@ -183,13 +188,17 @@ func addr(mem *[]int, ip int, digit int, offset int, rip int) (result int) {
 		result = (*mem)[ip+offset] + rip
 	}
 
-    // Expands the capacity on need
-    for len(*mem) <= result { *mem = append(*mem, 0) }
+	// Expands the capacity on need
+	for len(*mem) <= result {
+		*mem = append(*mem, 0)
+	}
 
 	return abs(result)
 }
 
 func abs(n int) int {
-    if n < 0 { return -n }
-    return n
+	if n < 0 {
+		return -n
+	}
+	return n
 }
