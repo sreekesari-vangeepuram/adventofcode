@@ -31,10 +31,10 @@ func main() {
 		Program[i] = n
 	}
 
-	fmt.Println(discoverPassword(Program))
+	fmt.Println(initIntcodeVM(Program))
 }
 
-func discoverPassword(Program []int) (int, string) {
+func initIntcodeVM(Program []int) (int, string) {
 
 	STDIN   := make(chan int)
 	STDOUT  := make(chan int)
