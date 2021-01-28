@@ -183,16 +183,3 @@ func abs(n int) int {
     if n < 0 { return -n }
     return n
 }
-
-func HasPrefix(slice, prefix []string) (result bool) {
-	if  len(prefix) > len(slice) { return false }
-	for i, s := range prefix {
-		if slice[i] != s { return false }
-	}; return true
-}
-
-func Index(slice, subSlice []string) int {
-	for i := 0; i <= len(slice)-len(subSlice); i++ {
-		if HasPrefix(slice[i:], subSlice) {	return i}
-	};  return -1
-}
