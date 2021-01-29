@@ -1,0 +1,3080 @@
+drop space heater
+drop antenna
+drop whirled peas
+drop manifold
+drop dark matter
+drop spool of cat6
+drop bowl of rice
+drop klein bottle
+0 set() 
+
+
+north
+1 {'space heater'} 
+
+
+take space heater
+north
+drop space heater
+2 {'antenna'} 
+
+
+take antenna
+north
+drop antenna
+3 {'antenna', 'space heater'} 
+
+
+take antenna
+take space heater
+north
+drop antenna
+drop space heater
+4 {'whirled peas'} 
+
+
+take whirled peas
+north
+drop whirled peas
+5 {'whirled peas', 'space heater'} 
+
+
+take whirled peas
+take space heater
+north
+drop whirled peas
+drop space heater
+6 {'antenna', 'whirled peas'} 
+
+
+take antenna
+take whirled peas
+north
+drop antenna
+drop whirled peas
+7 {'antenna', 'whirled peas', 'space heater'} 
+
+
+take antenna
+take whirled peas
+take space heater
+north
+drop antenna
+drop whirled peas
+drop space heater
+8 {'manifold'} 
+
+
+take manifold
+north
+drop manifold
+9 {'manifold', 'space heater'} 
+
+
+take manifold
+take space heater
+north
+drop manifold
+drop space heater
+10 {'antenna', 'manifold'} 
+
+
+take antenna
+take manifold
+north
+drop antenna
+drop manifold
+11 {'antenna', 'manifold', 'space heater'} 
+
+
+take antenna
+take manifold
+take space heater
+north
+drop antenna
+drop manifold
+drop space heater
+12 {'whirled peas', 'manifold'} 
+
+
+take whirled peas
+take manifold
+north
+drop whirled peas
+drop manifold
+13 {'whirled peas', 'manifold', 'space heater'} 
+
+
+take whirled peas
+take manifold
+take space heater
+north
+drop whirled peas
+drop manifold
+drop space heater
+14 {'manifold', 'antenna', 'whirled peas'} 
+
+
+take manifold
+take antenna
+take whirled peas
+north
+drop manifold
+drop antenna
+drop whirled peas
+15 {'manifold', 'antenna', 'whirled peas', 'space heater'} 
+
+
+take manifold
+take antenna
+take whirled peas
+take space heater
+north
+drop manifold
+drop antenna
+drop whirled peas
+drop space heater
+16 {'dark matter'} 
+
+
+take dark matter
+north
+drop dark matter
+17 {'dark matter', 'space heater'} 
+
+
+take dark matter
+take space heater
+north
+drop dark matter
+drop space heater
+18 {'antenna', 'dark matter'} 
+
+
+take antenna
+take dark matter
+north
+drop antenna
+drop dark matter
+19 {'antenna', 'dark matter', 'space heater'} 
+
+
+take antenna
+take dark matter
+take space heater
+north
+drop antenna
+drop dark matter
+drop space heater
+20 {'whirled peas', 'dark matter'} 
+
+
+take whirled peas
+take dark matter
+north
+drop whirled peas
+drop dark matter
+21 {'whirled peas', 'dark matter', 'space heater'} 
+
+
+take whirled peas
+take dark matter
+take space heater
+north
+drop whirled peas
+drop dark matter
+drop space heater
+22 {'dark matter', 'antenna', 'whirled peas'} 
+
+
+take dark matter
+take antenna
+take whirled peas
+north
+drop dark matter
+drop antenna
+drop whirled peas
+23 {'dark matter', 'antenna', 'whirled peas', 'space heater'} 
+
+
+take dark matter
+take antenna
+take whirled peas
+take space heater
+north
+drop dark matter
+drop antenna
+drop whirled peas
+drop space heater
+24 {'dark matter', 'manifold'} 
+
+
+take dark matter
+take manifold
+north
+drop dark matter
+drop manifold
+25 {'dark matter', 'manifold', 'space heater'} 
+
+
+take dark matter
+take manifold
+take space heater
+north
+drop dark matter
+drop manifold
+drop space heater
+26 {'dark matter', 'antenna', 'manifold'} 
+
+
+take dark matter
+take antenna
+take manifold
+north
+drop dark matter
+drop antenna
+drop manifold
+27 {'dark matter', 'antenna', 'manifold', 'space heater'} 
+
+
+take dark matter
+take antenna
+take manifold
+take space heater
+north
+drop dark matter
+drop antenna
+drop manifold
+drop space heater
+28 {'dark matter', 'whirled peas', 'manifold'} 
+
+
+take dark matter
+take whirled peas
+take manifold
+north
+drop dark matter
+drop whirled peas
+drop manifold
+29 {'dark matter', 'whirled peas', 'manifold', 'space heater'} 
+
+
+take dark matter
+take whirled peas
+take manifold
+take space heater
+north
+drop dark matter
+drop whirled peas
+drop manifold
+drop space heater
+30 {'manifold', 'dark matter', 'antenna', 'whirled peas'} 
+
+
+take manifold
+take dark matter
+take antenna
+take whirled peas
+north
+drop manifold
+drop dark matter
+drop antenna
+drop whirled peas
+31 {'space heater', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take space heater
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop space heater
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+32 {'spool of cat6'} 
+
+
+take spool of cat6
+north
+drop spool of cat6
+33 {'spool of cat6', 'space heater'} 
+
+
+take spool of cat6
+take space heater
+north
+drop spool of cat6
+drop space heater
+34 {'antenna', 'spool of cat6'} 
+
+
+take antenna
+take spool of cat6
+north
+drop antenna
+drop spool of cat6
+35 {'antenna', 'spool of cat6', 'space heater'} 
+
+
+take antenna
+take spool of cat6
+take space heater
+north
+drop antenna
+drop spool of cat6
+drop space heater
+36 {'whirled peas', 'spool of cat6'} 
+
+
+take whirled peas
+take spool of cat6
+north
+drop whirled peas
+drop spool of cat6
+37 {'whirled peas', 'spool of cat6', 'space heater'} 
+
+
+take whirled peas
+take spool of cat6
+take space heater
+north
+drop whirled peas
+drop spool of cat6
+drop space heater
+38 {'spool of cat6', 'antenna', 'whirled peas'} 
+
+
+take spool of cat6
+take antenna
+take whirled peas
+north
+drop spool of cat6
+drop antenna
+drop whirled peas
+39 {'spool of cat6', 'antenna', 'whirled peas', 'space heater'} 
+
+
+take spool of cat6
+take antenna
+take whirled peas
+take space heater
+north
+drop spool of cat6
+drop antenna
+drop whirled peas
+drop space heater
+40 {'spool of cat6', 'manifold'} 
+
+
+take spool of cat6
+take manifold
+north
+drop spool of cat6
+drop manifold
+41 {'spool of cat6', 'manifold', 'space heater'} 
+
+
+take spool of cat6
+take manifold
+take space heater
+north
+drop spool of cat6
+drop manifold
+drop space heater
+42 {'spool of cat6', 'antenna', 'manifold'} 
+
+
+take spool of cat6
+take antenna
+take manifold
+north
+drop spool of cat6
+drop antenna
+drop manifold
+43 {'spool of cat6', 'antenna', 'manifold', 'space heater'} 
+
+
+take spool of cat6
+take antenna
+take manifold
+take space heater
+north
+drop spool of cat6
+drop antenna
+drop manifold
+drop space heater
+44 {'spool of cat6', 'whirled peas', 'manifold'} 
+
+
+take spool of cat6
+take whirled peas
+take manifold
+north
+drop spool of cat6
+drop whirled peas
+drop manifold
+45 {'spool of cat6', 'whirled peas', 'manifold', 'space heater'} 
+
+
+take spool of cat6
+take whirled peas
+take manifold
+take space heater
+north
+drop spool of cat6
+drop whirled peas
+drop manifold
+drop space heater
+46 {'manifold', 'spool of cat6', 'antenna', 'whirled peas'} 
+
+
+take manifold
+take spool of cat6
+take antenna
+take whirled peas
+north
+drop manifold
+drop spool of cat6
+drop antenna
+drop whirled peas
+47 {'spool of cat6', 'space heater', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take whirled peas
+take manifold
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop manifold
+drop antenna
+48 {'spool of cat6', 'dark matter'} 
+
+
+take spool of cat6
+take dark matter
+north
+drop spool of cat6
+drop dark matter
+49 {'spool of cat6', 'dark matter', 'space heater'} 
+
+
+take spool of cat6
+take dark matter
+take space heater
+north
+drop spool of cat6
+drop dark matter
+drop space heater
+50 {'spool of cat6', 'antenna', 'dark matter'} 
+
+
+take spool of cat6
+take antenna
+take dark matter
+north
+drop spool of cat6
+drop antenna
+drop dark matter
+51 {'spool of cat6', 'antenna', 'dark matter', 'space heater'} 
+
+
+take spool of cat6
+take antenna
+take dark matter
+take space heater
+north
+drop spool of cat6
+drop antenna
+drop dark matter
+drop space heater
+52 {'spool of cat6', 'whirled peas', 'dark matter'} 
+
+
+take spool of cat6
+take whirled peas
+take dark matter
+north
+drop spool of cat6
+drop whirled peas
+drop dark matter
+53 {'spool of cat6', 'whirled peas', 'dark matter', 'space heater'} 
+
+
+take spool of cat6
+take whirled peas
+take dark matter
+take space heater
+north
+drop spool of cat6
+drop whirled peas
+drop dark matter
+drop space heater
+54 {'dark matter', 'spool of cat6', 'antenna', 'whirled peas'} 
+
+
+take dark matter
+take spool of cat6
+take antenna
+take whirled peas
+north
+drop dark matter
+drop spool of cat6
+drop antenna
+drop whirled peas
+55 {'spool of cat6', 'space heater', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take whirled peas
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop dark matter
+drop antenna
+56 {'dark matter', 'spool of cat6', 'manifold'} 
+
+
+take dark matter
+take spool of cat6
+take manifold
+north
+drop dark matter
+drop spool of cat6
+drop manifold
+57 {'dark matter', 'spool of cat6', 'manifold', 'space heater'} 
+
+
+take dark matter
+take spool of cat6
+take manifold
+take space heater
+north
+drop dark matter
+drop spool of cat6
+drop manifold
+drop space heater
+58 {'dark matter', 'spool of cat6', 'antenna', 'manifold'} 
+
+
+take dark matter
+take spool of cat6
+take antenna
+take manifold
+north
+drop dark matter
+drop spool of cat6
+drop antenna
+drop manifold
+59 {'spool of cat6', 'space heater', 'dark matter', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take dark matter
+take manifold
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop dark matter
+drop manifold
+drop antenna
+60 {'dark matter', 'spool of cat6', 'whirled peas', 'manifold'} 
+
+
+take dark matter
+take spool of cat6
+take whirled peas
+take manifold
+north
+drop dark matter
+drop spool of cat6
+drop whirled peas
+drop manifold
+61 {'spool of cat6', 'space heater', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take spool of cat6
+take space heater
+take whirled peas
+take dark matter
+take manifold
+north
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop dark matter
+drop manifold
+62 {'spool of cat6', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+63 {'spool of cat6', 'space heater', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+64 {'bowl of rice'} 
+
+
+take bowl of rice
+north
+drop bowl of rice
+65 {'bowl of rice', 'space heater'} 
+
+
+take bowl of rice
+take space heater
+north
+drop bowl of rice
+drop space heater
+66 {'bowl of rice', 'antenna'} 
+
+
+take bowl of rice
+take antenna
+north
+drop bowl of rice
+drop antenna
+67 {'bowl of rice', 'antenna', 'space heater'} 
+
+
+take bowl of rice
+take antenna
+take space heater
+north
+drop bowl of rice
+drop antenna
+drop space heater
+68 {'bowl of rice', 'whirled peas'} 
+
+
+take bowl of rice
+take whirled peas
+north
+drop bowl of rice
+drop whirled peas
+69 {'bowl of rice', 'whirled peas', 'space heater'} 
+
+
+take bowl of rice
+take whirled peas
+take space heater
+north
+drop bowl of rice
+drop whirled peas
+drop space heater
+70 {'bowl of rice', 'antenna', 'whirled peas'} 
+
+
+take bowl of rice
+take antenna
+take whirled peas
+north
+drop bowl of rice
+drop antenna
+drop whirled peas
+71 {'bowl of rice', 'antenna', 'whirled peas', 'space heater'} 
+
+
+take bowl of rice
+take antenna
+take whirled peas
+take space heater
+north
+drop bowl of rice
+drop antenna
+drop whirled peas
+drop space heater
+72 {'bowl of rice', 'manifold'} 
+
+
+take bowl of rice
+take manifold
+north
+drop bowl of rice
+drop manifold
+73 {'bowl of rice', 'manifold', 'space heater'} 
+
+
+take bowl of rice
+take manifold
+take space heater
+north
+drop bowl of rice
+drop manifold
+drop space heater
+74 {'bowl of rice', 'antenna', 'manifold'} 
+
+
+take bowl of rice
+take antenna
+take manifold
+north
+drop bowl of rice
+drop antenna
+drop manifold
+75 {'bowl of rice', 'antenna', 'manifold', 'space heater'} 
+
+
+take bowl of rice
+take antenna
+take manifold
+take space heater
+north
+drop bowl of rice
+drop antenna
+drop manifold
+drop space heater
+76 {'bowl of rice', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop whirled peas
+drop manifold
+77 {'bowl of rice', 'whirled peas', 'manifold', 'space heater'} 
+
+
+take bowl of rice
+take whirled peas
+take manifold
+take space heater
+north
+drop bowl of rice
+drop whirled peas
+drop manifold
+drop space heater
+78 {'manifold', 'antenna', 'bowl of rice', 'whirled peas'} 
+
+
+take manifold
+take antenna
+take bowl of rice
+take whirled peas
+north
+drop manifold
+drop antenna
+drop bowl of rice
+drop whirled peas
+79 {'bowl of rice', 'space heater', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop whirled peas
+drop manifold
+drop antenna
+80 {'bowl of rice', 'dark matter'} 
+
+
+take bowl of rice
+take dark matter
+north
+drop bowl of rice
+drop dark matter
+81 {'bowl of rice', 'dark matter', 'space heater'} 
+
+
+take bowl of rice
+take dark matter
+take space heater
+north
+drop bowl of rice
+drop dark matter
+drop space heater
+82 {'bowl of rice', 'antenna', 'dark matter'} 
+
+
+take bowl of rice
+take antenna
+take dark matter
+north
+drop bowl of rice
+drop antenna
+drop dark matter
+83 {'bowl of rice', 'antenna', 'dark matter', 'space heater'} 
+
+
+take bowl of rice
+take antenna
+take dark matter
+take space heater
+north
+drop bowl of rice
+drop antenna
+drop dark matter
+drop space heater
+84 {'bowl of rice', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop whirled peas
+drop dark matter
+85 {'bowl of rice', 'whirled peas', 'dark matter', 'space heater'} 
+
+
+take bowl of rice
+take whirled peas
+take dark matter
+take space heater
+north
+drop bowl of rice
+drop whirled peas
+drop dark matter
+drop space heater
+86 {'bowl of rice', 'dark matter', 'antenna', 'whirled peas'} 
+
+
+take bowl of rice
+take dark matter
+take antenna
+take whirled peas
+north
+drop bowl of rice
+drop dark matter
+drop antenna
+drop whirled peas
+87 {'bowl of rice', 'space heater', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop whirled peas
+drop dark matter
+drop antenna
+88 {'bowl of rice', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop dark matter
+drop manifold
+89 {'bowl of rice', 'dark matter', 'manifold', 'space heater'} 
+
+
+take bowl of rice
+take dark matter
+take manifold
+take space heater
+north
+drop bowl of rice
+drop dark matter
+drop manifold
+drop space heater
+90 {'bowl of rice', 'dark matter', 'antenna', 'manifold'} 
+
+
+take bowl of rice
+take dark matter
+take antenna
+take manifold
+north
+drop bowl of rice
+drop dark matter
+drop antenna
+drop manifold
+91 {'bowl of rice', 'space heater', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop dark matter
+drop manifold
+drop antenna
+92 {'bowl of rice', 'dark matter', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take dark matter
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop dark matter
+drop whirled peas
+drop manifold
+93 {'bowl of rice', 'space heater', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take space heater
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop space heater
+drop whirled peas
+drop dark matter
+drop manifold
+94 {'bowl of rice', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+95 {'bowl of rice', 'space heater', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+96 {'bowl of rice', 'spool of cat6'} 
+
+
+take bowl of rice
+take spool of cat6
+north
+drop bowl of rice
+drop spool of cat6
+97 {'bowl of rice', 'spool of cat6', 'space heater'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+98 {'bowl of rice', 'antenna', 'spool of cat6'} 
+
+
+take bowl of rice
+take antenna
+take spool of cat6
+north
+drop bowl of rice
+drop antenna
+drop spool of cat6
+99 {'bowl of rice', 'antenna', 'spool of cat6', 'space heater'} 
+
+
+take bowl of rice
+take antenna
+take spool of cat6
+take space heater
+north
+drop bowl of rice
+drop antenna
+drop spool of cat6
+drop space heater
+100 {'bowl of rice', 'whirled peas', 'spool of cat6'} 
+
+
+take bowl of rice
+take whirled peas
+take spool of cat6
+north
+drop bowl of rice
+drop whirled peas
+drop spool of cat6
+101 {'bowl of rice', 'whirled peas', 'spool of cat6', 'space heater'} 
+
+
+take bowl of rice
+take whirled peas
+take spool of cat6
+take space heater
+north
+drop bowl of rice
+drop whirled peas
+drop spool of cat6
+drop space heater
+102 {'bowl of rice', 'spool of cat6', 'antenna', 'whirled peas'} 
+
+
+take bowl of rice
+take spool of cat6
+take antenna
+take whirled peas
+north
+drop bowl of rice
+drop spool of cat6
+drop antenna
+drop whirled peas
+103 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop antenna
+104 {'bowl of rice', 'spool of cat6', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop manifold
+105 {'bowl of rice', 'spool of cat6', 'manifold', 'space heater'} 
+
+
+take bowl of rice
+take spool of cat6
+take manifold
+take space heater
+north
+drop bowl of rice
+drop spool of cat6
+drop manifold
+drop space heater
+106 {'bowl of rice', 'spool of cat6', 'antenna', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take antenna
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop antenna
+drop manifold
+107 {'bowl of rice', 'spool of cat6', 'space heater', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop manifold
+drop antenna
+108 {'bowl of rice', 'spool of cat6', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop whirled peas
+drop manifold
+109 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop manifold
+110 {'bowl of rice', 'spool of cat6', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop whirled peas
+drop manifold
+drop antenna
+111 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop manifold
+drop antenna
+112 {'bowl of rice', 'spool of cat6', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop dark matter
+113 {'bowl of rice', 'spool of cat6', 'dark matter', 'space heater'} 
+
+
+take bowl of rice
+take spool of cat6
+take dark matter
+take space heater
+north
+drop bowl of rice
+drop spool of cat6
+drop dark matter
+drop space heater
+114 {'bowl of rice', 'spool of cat6', 'antenna', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take antenna
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop antenna
+drop dark matter
+115 {'bowl of rice', 'spool of cat6', 'space heater', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop dark matter
+drop antenna
+116 {'bowl of rice', 'spool of cat6', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop whirled peas
+drop dark matter
+117 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop dark matter
+118 {'bowl of rice', 'spool of cat6', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop whirled peas
+drop dark matter
+drop antenna
+119 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop dark matter
+drop antenna
+120 {'bowl of rice', 'dark matter', 'spool of cat6', 'manifold'} 
+
+
+take bowl of rice
+take dark matter
+take spool of cat6
+take manifold
+north
+drop bowl of rice
+drop dark matter
+drop spool of cat6
+drop manifold
+121 {'bowl of rice', 'spool of cat6', 'space heater', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop dark matter
+drop manifold
+122 {'bowl of rice', 'spool of cat6', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop dark matter
+drop manifold
+drop antenna
+123 {'bowl of rice', 'spool of cat6', 'space heater', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop dark matter
+drop manifold
+drop antenna
+124 {'bowl of rice', 'spool of cat6', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop whirled peas
+drop dark matter
+drop manifold
+125 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop dark matter
+drop manifold
+126 {'bowl of rice', 'spool of cat6', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+127 {'bowl of rice', 'spool of cat6', 'space heater', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+128 {'klein bottle'} 
+
+
+take klein bottle
+north
+drop klein bottle
+129 {'klein bottle', 'space heater'} 
+
+
+take klein bottle
+take space heater
+north
+drop klein bottle
+drop space heater
+130 {'klein bottle', 'antenna'} 
+
+
+take klein bottle
+take antenna
+north
+drop klein bottle
+drop antenna
+131 {'klein bottle', 'antenna', 'space heater'} 
+
+
+take klein bottle
+take antenna
+take space heater
+north
+drop klein bottle
+drop antenna
+drop space heater
+132 {'klein bottle', 'whirled peas'} 
+
+
+take klein bottle
+take whirled peas
+north
+drop klein bottle
+drop whirled peas
+133 {'klein bottle', 'whirled peas', 'space heater'} 
+
+
+take klein bottle
+take whirled peas
+take space heater
+north
+drop klein bottle
+drop whirled peas
+drop space heater
+134 {'klein bottle', 'antenna', 'whirled peas'} 
+
+
+take klein bottle
+take antenna
+take whirled peas
+north
+drop klein bottle
+drop antenna
+drop whirled peas
+135 {'klein bottle', 'antenna', 'whirled peas', 'space heater'} 
+
+
+take klein bottle
+take antenna
+take whirled peas
+take space heater
+north
+drop klein bottle
+drop antenna
+drop whirled peas
+drop space heater
+136 {'klein bottle', 'manifold'} 
+
+
+take klein bottle
+take manifold
+north
+drop klein bottle
+drop manifold
+137 {'klein bottle', 'manifold', 'space heater'} 
+
+
+take klein bottle
+take manifold
+take space heater
+north
+drop klein bottle
+drop manifold
+drop space heater
+138 {'klein bottle', 'antenna', 'manifold'} 
+
+
+take klein bottle
+take antenna
+take manifold
+north
+drop klein bottle
+drop antenna
+drop manifold
+139 {'klein bottle', 'antenna', 'manifold', 'space heater'} 
+
+
+take klein bottle
+take antenna
+take manifold
+take space heater
+north
+drop klein bottle
+drop antenna
+drop manifold
+drop space heater
+140 {'klein bottle', 'whirled peas', 'manifold'} 
+
+
+take klein bottle
+take whirled peas
+take manifold
+north
+drop klein bottle
+drop whirled peas
+drop manifold
+141 {'klein bottle', 'whirled peas', 'manifold', 'space heater'} 
+
+
+take klein bottle
+take whirled peas
+take manifold
+take space heater
+north
+drop klein bottle
+drop whirled peas
+drop manifold
+drop space heater
+142 {'manifold', 'klein bottle', 'antenna', 'whirled peas'} 
+
+
+take manifold
+take klein bottle
+take antenna
+take whirled peas
+north
+drop manifold
+drop klein bottle
+drop antenna
+drop whirled peas
+143 {'space heater', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+144 {'klein bottle', 'dark matter'} 
+
+
+take klein bottle
+take dark matter
+north
+drop klein bottle
+drop dark matter
+145 {'klein bottle', 'dark matter', 'space heater'} 
+
+
+take klein bottle
+take dark matter
+take space heater
+north
+drop klein bottle
+drop dark matter
+drop space heater
+146 {'klein bottle', 'antenna', 'dark matter'} 
+
+
+take klein bottle
+take antenna
+take dark matter
+north
+drop klein bottle
+drop antenna
+drop dark matter
+147 {'klein bottle', 'antenna', 'dark matter', 'space heater'} 
+
+
+take klein bottle
+take antenna
+take dark matter
+take space heater
+north
+drop klein bottle
+drop antenna
+drop dark matter
+drop space heater
+148 {'klein bottle', 'whirled peas', 'dark matter'} 
+
+
+take klein bottle
+take whirled peas
+take dark matter
+north
+drop klein bottle
+drop whirled peas
+drop dark matter
+149 {'klein bottle', 'whirled peas', 'dark matter', 'space heater'} 
+
+
+take klein bottle
+take whirled peas
+take dark matter
+take space heater
+north
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop space heater
+150 {'dark matter', 'antenna', 'whirled peas', 'klein bottle'} 
+
+
+take dark matter
+take antenna
+take whirled peas
+take klein bottle
+north
+drop dark matter
+drop antenna
+drop whirled peas
+drop klein bottle
+151 {'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+152 {'dark matter', 'manifold', 'klein bottle'} 
+
+
+take dark matter
+take manifold
+take klein bottle
+north
+drop dark matter
+drop manifold
+drop klein bottle
+153 {'dark matter', 'klein bottle', 'manifold', 'space heater'} 
+
+
+take dark matter
+take klein bottle
+take manifold
+take space heater
+north
+drop dark matter
+drop klein bottle
+drop manifold
+drop space heater
+154 {'dark matter', 'antenna', 'manifold', 'klein bottle'} 
+
+
+take dark matter
+take antenna
+take manifold
+take klein bottle
+north
+drop dark matter
+drop antenna
+drop manifold
+drop klein bottle
+155 {'space heater', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take space heater
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+156 {'dark matter', 'whirled peas', 'manifold', 'klein bottle'} 
+
+
+take dark matter
+take whirled peas
+take manifold
+take klein bottle
+north
+drop dark matter
+drop whirled peas
+drop manifold
+drop klein bottle
+157 {'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+158 {'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+159 {'space heater', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+160 {'klein bottle', 'spool of cat6'} 
+
+
+take klein bottle
+take spool of cat6
+north
+drop klein bottle
+drop spool of cat6
+161 {'klein bottle', 'spool of cat6', 'space heater'} 
+
+
+take klein bottle
+take spool of cat6
+take space heater
+north
+drop klein bottle
+drop spool of cat6
+drop space heater
+162 {'klein bottle', 'antenna', 'spool of cat6'} 
+
+
+take klein bottle
+take antenna
+take spool of cat6
+north
+drop klein bottle
+drop antenna
+drop spool of cat6
+163 {'klein bottle', 'antenna', 'spool of cat6', 'space heater'} 
+
+
+take klein bottle
+take antenna
+take spool of cat6
+take space heater
+north
+drop klein bottle
+drop antenna
+drop spool of cat6
+drop space heater
+164 {'klein bottle', 'whirled peas', 'spool of cat6'} 
+
+
+take klein bottle
+take whirled peas
+take spool of cat6
+north
+drop klein bottle
+drop whirled peas
+drop spool of cat6
+165 {'klein bottle', 'whirled peas', 'spool of cat6', 'space heater'} 
+
+
+take klein bottle
+take whirled peas
+take spool of cat6
+take space heater
+north
+drop klein bottle
+drop whirled peas
+drop spool of cat6
+drop space heater
+166 {'klein bottle', 'spool of cat6', 'antenna', 'whirled peas'} 
+
+
+take klein bottle
+take spool of cat6
+take antenna
+take whirled peas
+north
+drop klein bottle
+drop spool of cat6
+drop antenna
+drop whirled peas
+167 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop antenna
+168 {'klein bottle', 'spool of cat6', 'manifold'} 
+
+
+take klein bottle
+take spool of cat6
+take manifold
+north
+drop klein bottle
+drop spool of cat6
+drop manifold
+169 {'klein bottle', 'spool of cat6', 'manifold', 'space heater'} 
+
+
+take klein bottle
+take spool of cat6
+take manifold
+take space heater
+north
+drop klein bottle
+drop spool of cat6
+drop manifold
+drop space heater
+170 {'klein bottle', 'spool of cat6', 'antenna', 'manifold'} 
+
+
+take klein bottle
+take spool of cat6
+take antenna
+take manifold
+north
+drop klein bottle
+drop spool of cat6
+drop antenna
+drop manifold
+171 {'spool of cat6', 'space heater', 'klein bottle', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take manifold
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop manifold
+drop antenna
+172 {'klein bottle', 'spool of cat6', 'whirled peas', 'manifold'} 
+
+
+take klein bottle
+take spool of cat6
+take whirled peas
+take manifold
+north
+drop klein bottle
+drop spool of cat6
+drop whirled peas
+drop manifold
+173 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'manifold'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+174 {'spool of cat6', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+175 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+176 {'klein bottle', 'spool of cat6', 'dark matter'} 
+
+
+take klein bottle
+take spool of cat6
+take dark matter
+north
+drop klein bottle
+drop spool of cat6
+drop dark matter
+177 {'klein bottle', 'spool of cat6', 'dark matter', 'space heater'} 
+
+
+take klein bottle
+take spool of cat6
+take dark matter
+take space heater
+north
+drop klein bottle
+drop spool of cat6
+drop dark matter
+drop space heater
+178 {'klein bottle', 'spool of cat6', 'antenna', 'dark matter'} 
+
+
+take klein bottle
+take spool of cat6
+take antenna
+take dark matter
+north
+drop klein bottle
+drop spool of cat6
+drop antenna
+drop dark matter
+179 {'spool of cat6', 'space heater', 'klein bottle', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+drop antenna
+180 {'klein bottle', 'spool of cat6', 'whirled peas', 'dark matter'} 
+
+
+take klein bottle
+take spool of cat6
+take whirled peas
+take dark matter
+north
+drop klein bottle
+drop spool of cat6
+drop whirled peas
+drop dark matter
+181 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'dark matter'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+182 {'spool of cat6', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+183 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+184 {'dark matter', 'spool of cat6', 'manifold', 'klein bottle'} 
+
+
+take dark matter
+take spool of cat6
+take manifold
+take klein bottle
+north
+drop dark matter
+drop spool of cat6
+drop manifold
+drop klein bottle
+185 {'spool of cat6', 'space heater', 'klein bottle', 'dark matter', 'manifold'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+take manifold
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+186 {'spool of cat6', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop spool of cat6
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+187 {'spool of cat6', 'space heater', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+188 {'spool of cat6', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take spool of cat6
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+189 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+190 {'spool of cat6', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+191 {'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+192 {'bowl of rice', 'klein bottle'} 
+
+
+take bowl of rice
+take klein bottle
+north
+drop bowl of rice
+drop klein bottle
+193 {'bowl of rice', 'klein bottle', 'space heater'} 
+
+
+take bowl of rice
+take klein bottle
+take space heater
+north
+drop bowl of rice
+drop klein bottle
+drop space heater
+194 {'bowl of rice', 'klein bottle', 'antenna'} 
+
+
+take bowl of rice
+take klein bottle
+take antenna
+north
+drop bowl of rice
+drop klein bottle
+drop antenna
+195 {'bowl of rice', 'klein bottle', 'antenna', 'space heater'} 
+
+
+take bowl of rice
+take klein bottle
+take antenna
+take space heater
+north
+drop bowl of rice
+drop klein bottle
+drop antenna
+drop space heater
+196 {'bowl of rice', 'klein bottle', 'whirled peas'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+197 {'bowl of rice', 'klein bottle', 'whirled peas', 'space heater'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take space heater
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop space heater
+198 {'bowl of rice', 'klein bottle', 'antenna', 'whirled peas'} 
+
+
+take bowl of rice
+take klein bottle
+take antenna
+take whirled peas
+north
+drop bowl of rice
+drop klein bottle
+drop antenna
+drop whirled peas
+199 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop antenna
+200 {'bowl of rice', 'klein bottle', 'manifold'} 
+
+
+take bowl of rice
+take klein bottle
+take manifold
+north
+drop bowl of rice
+drop klein bottle
+drop manifold
+201 {'bowl of rice', 'klein bottle', 'manifold', 'space heater'} 
+
+
+take bowl of rice
+take klein bottle
+take manifold
+take space heater
+north
+drop bowl of rice
+drop klein bottle
+drop manifold
+drop space heater
+202 {'bowl of rice', 'klein bottle', 'antenna', 'manifold'} 
+
+
+take bowl of rice
+take klein bottle
+take antenna
+take manifold
+north
+drop bowl of rice
+drop klein bottle
+drop antenna
+drop manifold
+203 {'bowl of rice', 'space heater', 'klein bottle', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take manifold
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop manifold
+drop antenna
+204 {'bowl of rice', 'klein bottle', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop manifold
+205 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+206 {'bowl of rice', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+207 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+208 {'bowl of rice', 'klein bottle', 'dark matter'} 
+
+
+take bowl of rice
+take klein bottle
+take dark matter
+north
+drop bowl of rice
+drop klein bottle
+drop dark matter
+209 {'bowl of rice', 'klein bottle', 'dark matter', 'space heater'} 
+
+
+take bowl of rice
+take klein bottle
+take dark matter
+take space heater
+north
+drop bowl of rice
+drop klein bottle
+drop dark matter
+drop space heater
+210 {'bowl of rice', 'klein bottle', 'antenna', 'dark matter'} 
+
+
+take bowl of rice
+take klein bottle
+take antenna
+take dark matter
+north
+drop bowl of rice
+drop klein bottle
+drop antenna
+drop dark matter
+211 {'bowl of rice', 'space heater', 'klein bottle', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop dark matter
+drop antenna
+212 {'bowl of rice', 'klein bottle', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop dark matter
+213 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+214 {'bowl of rice', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+215 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+216 {'bowl of rice', 'dark matter', 'manifold', 'klein bottle'} 
+
+
+take bowl of rice
+take dark matter
+take manifold
+take klein bottle
+north
+drop bowl of rice
+drop dark matter
+drop manifold
+drop klein bottle
+217 {'bowl of rice', 'space heater', 'klein bottle', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+218 {'bowl of rice', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+219 {'bowl of rice', 'space heater', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+220 {'bowl of rice', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+221 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+222 {'bowl of rice', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+223 {'bowl of rice', 'space heater', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+224 {'bowl of rice', 'klein bottle', 'spool of cat6'} 
+
+
+take bowl of rice
+take klein bottle
+take spool of cat6
+north
+drop bowl of rice
+drop klein bottle
+drop spool of cat6
+225 {'bowl of rice', 'klein bottle', 'spool of cat6', 'space heater'} 
+
+
+take bowl of rice
+take klein bottle
+take spool of cat6
+take space heater
+north
+drop bowl of rice
+drop klein bottle
+drop spool of cat6
+drop space heater
+226 {'bowl of rice', 'klein bottle', 'antenna', 'spool of cat6'} 
+
+
+take bowl of rice
+take klein bottle
+take antenna
+take spool of cat6
+north
+drop bowl of rice
+drop klein bottle
+drop antenna
+drop spool of cat6
+227 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop antenna
+228 {'bowl of rice', 'klein bottle', 'whirled peas', 'spool of cat6'} 
+
+
+take bowl of rice
+take klein bottle
+take whirled peas
+take spool of cat6
+north
+drop bowl of rice
+drop klein bottle
+drop whirled peas
+drop spool of cat6
+229 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+230 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop antenna
+231 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop antenna
+232 {'bowl of rice', 'klein bottle', 'spool of cat6', 'manifold'} 
+
+
+take bowl of rice
+take klein bottle
+take spool of cat6
+take manifold
+north
+drop bowl of rice
+drop klein bottle
+drop spool of cat6
+drop manifold
+233 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop manifold
+234 {'bowl of rice', 'spool of cat6', 'klein bottle', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop manifold
+drop antenna
+235 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop manifold
+drop antenna
+236 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop manifold
+237 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+238 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+239 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop antenna
+240 {'bowl of rice', 'klein bottle', 'spool of cat6', 'dark matter'} 
+
+
+take bowl of rice
+take klein bottle
+take spool of cat6
+take dark matter
+north
+drop bowl of rice
+drop klein bottle
+drop spool of cat6
+drop dark matter
+241 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+242 {'bowl of rice', 'spool of cat6', 'klein bottle', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop dark matter
+drop antenna
+243 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+drop antenna
+244 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop dark matter
+245 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'dark matter'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+246 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+247 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop antenna
+248 {'bowl of rice', 'spool of cat6', 'klein bottle', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop dark matter
+drop manifold
+249 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+250 {'bowl of rice', 'spool of cat6', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+251 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'dark matter', 'manifold', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take dark matter
+take manifold
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop dark matter
+drop manifold
+drop antenna
+252 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+253 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'dark matter', 'manifold'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take dark matter
+take manifold
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop dark matter
+drop manifold
+254 {'bowl of rice', 'spool of cat6', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
+255 {'bowl of rice', 'spool of cat6', 'space heater', 'klein bottle', 'whirled peas', 'manifold', 'dark matter', 'antenna'} 
+
+
+take bowl of rice
+take spool of cat6
+take space heater
+take klein bottle
+take whirled peas
+take manifold
+take dark matter
+take antenna
+north
+drop bowl of rice
+drop spool of cat6
+drop space heater
+drop klein bottle
+drop whirled peas
+drop manifold
+drop dark matter
+drop antenna
