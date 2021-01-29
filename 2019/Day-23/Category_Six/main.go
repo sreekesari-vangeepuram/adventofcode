@@ -178,7 +178,7 @@ func runProgram(Program []int, InputPacket <-chan int, OutputPacket chan<- int, 
 func addr(mem *[]int, ip int, digit int, offset int, rip int) (result int) {
 
 	switch digit {
-	case 0: // locationition mode
+	case 0: // position mode
 		result = (*mem)[ip+offset]
 
 	case 1: // immediate mode
