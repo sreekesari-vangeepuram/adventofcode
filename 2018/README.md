@@ -1,4 +1,4 @@
-### Elixir details (Scripting Mode)
+### Elixir details
 ```
 Erlang/OTP 23 [erts-11.1.8] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [hipe]
 
