@@ -3,8 +3,8 @@
 
 # Format data
 frequencies = file
-|> String.split("\n", trim: true)
-|> Enum.map(&String.to_integer/1)
+              |> String.split("\n", trim: true)
+              |> Enum.map(&String.to_integer/1)
 
 # Part 1
 frequencies
