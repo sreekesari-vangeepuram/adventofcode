@@ -1,6 +1,9 @@
+### Executables
+[Download here](https://github.com/sreekesari-vangeepuram/adventofcode/releases/download/v1/aoc-2019.tar.xz).
+
 ### Golang details
 ```
-go version go1.15.5 linux/amd64
+go version go1.16.3 linux/amd64
 ```
 
 ### Final Calendar
