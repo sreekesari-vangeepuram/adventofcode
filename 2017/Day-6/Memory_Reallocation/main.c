@@ -82,8 +82,8 @@ void realloc_memory(int *mem)
 	// state of `mem` into `storage_space`
 	memory_t *buffer_space = (memory_t *) malloc(sizeof(memory_t));
 
-	// `mapping_space` id used for mapping
-	// `buffer_space` into `storage_space`
+	// `mapping_space` is used to connect
+	// next `buffer_space` with old `buffer_space`
 	memory_t *mapping_space = NULL;
 
 	storage_space->next = buffer_space;
