@@ -161,7 +161,10 @@ bool match(memory_t *storage_space, memory_t *buffer_space)
 {
 	int i, acc;
 	bool found = false;
-	// Check all the banks except the last one <=> buffer_space
+
+	// Check all the states except
+	// the last one <=> buffer_space
+
 	while (storage_space->next != NULL)
 	{
 		acc = 0;
@@ -178,7 +181,7 @@ bool match(memory_t *storage_space, memory_t *buffer_space)
 			part[1] = buffer_space->cycle_id - storage_space->cycle_id;
 		}
 
-		// Point the present bank to next bank state
+		// Move to the next state
 		storage_space = storage_space->next;
 	}
 
